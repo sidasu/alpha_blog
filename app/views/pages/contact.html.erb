@@ -1,0 +1,56 @@
+<html>
+<head>
+<%= stylesheet_link_tag "application.css", media: "all" %>
+<title>Welcome to my Contact Page</title>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Welcome to My Contact Page</h1>
+		</header>
+		
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><%= link_to 'Home', pages_home_path %></li>
+				<li class="menuitem"><%= link_to 'About', pages_about_path %></li>
+				<li class="menuitem"><%= link_to 'More', pages_more_path %></li>
+				<li class="menuitem"><%= link_to 'Contact', pages_contact_path %></li>
+			</ul>
+	    </nav>
+		 		 <section>		
+			<h2>Top Section</h2>
+			<div id="developer">
+				<p>This will be a part where something can be written</p>
+						
+		</div><!--developer end-->
+		
+		</section>
+		
+		<section>
+			<div class="left">
+			<h2>Welcome to My Contact Page! </h2>
+				<div class="float"><%= image_tag("ruby.png", :alt => "web developer directory") %></div>
+			<h3>This is my contact page</h3>
+			<p>This is for my Ruby on Rails Project</p>
+			<h3>Learning Contact Ruby on Rails</h3>
+			<p>I hope to write something here on the left</p>
+			</div><!-- close div left-->
+			
+			<div class="right">
+			<h2>Welcome to My Contact Page! </h2>
+				<div class="float"><%= image_tag("ruby.png", :alt => "web developer directory") %></div>
+			<h3>This is my more page</h3>
+			<p>This is for my Ruby on Rails Project</p>
+			<h3>Learning to code Ruby on Rails</h3>
+			<p>I hope to write something here on the right</p>
+			</div><!-- close div right-->
+		</section>
+		
+		
+	</div><!--container end-->
+	<div style="clear;both"></div>
+	<footer>
+		Copyright &copy; 2016, My Ruby on Rails Project
+	</footer>
+</body>
+</html>
