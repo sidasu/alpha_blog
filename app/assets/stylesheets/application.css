@@ -1,4 +1,4 @@
-*{
+/* *{
 	margin: 0 auto 0 auto;
 	text-align:left;
 }
@@ -63,7 +63,7 @@ label{
 	width:150px;
 }
 
-/* Main styles */
+/* Main styles 
 #container{
 	width:750px;
 	overflow:auto;
@@ -226,4 +226,5 @@ footer{
 	margin-top:20px;
 	padding-top:15px;
 }
+*/
 
