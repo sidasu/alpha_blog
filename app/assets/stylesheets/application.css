@@ -111,7 +111,7 @@ nav#menu{
 	height:54px;
 }
 
-nav#menu ul{
+nav #menu ul{
 	list-style:none;
 	padding:0;
 	padding-top:18px;
@@ -120,9 +120,9 @@ nav#menu ul{
 }
 
 nav#menu li{
-	list-style:none;
-	padding:0;
-	display;inline;
+	list-style: none;
+	padding: 0px;
+	display: inline;
 }
 
 nav#menu li a,#menu li a:visited{
