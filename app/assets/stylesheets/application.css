@@ -1,4 +1,4 @@
- *{
+*{
 	margin: 0 auto 0 auto;
 	text-align:left;
 }
@@ -8,12 +8,12 @@ body{
 	padding:0;
 	text-align:left;
 	font-size:13px;
-	font-family:arial,helvetica, sens-serif;
+	font-family:arial,helvetica,sans-serif;
 	color:#000000;
 	background-color: #a62c39;
-	
-	/*background-image: url( 'images/background.png');
-	background-repeat: repeat-x; */
+	background-image: url('background.png');
+	background-repeat: repeat-x;
+	height:100%;
 }
 
 a{
@@ -65,7 +65,7 @@ label{
 
 /* Main styles */
 #container{
-	width:750px;
+	width:850px;
 	overflow:auto;
 }
 
@@ -111,9 +111,9 @@ nav#menu{
 	height:54px;
 }
 
-nav #menu ul{
+nav#menu ul{
 	list-style:none;
-	padding:0;
+	padding:10px;
 	padding-top:18px;
 	margin-left:auto;
 	width:750px;
